@@ -1,0 +1,16 @@
+.table {
+    overflow-x: scroll;
+    display: block;
+    margin: 0 auto;
+    color: #000;
+    margin: 0 auto;
+  }
+  .table-item {
+    border: 1px solid black;
+    font-size: 2rem;
+    padding: 5px;
+    text-align: center;
+  }
+  .table-header__item {
+    font-weight: bold;
+  }

@@ -1,0 +1,46 @@
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+  
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    @extend %font-add;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    color: #fff;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #000;;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.disabled {
+    opacity: .5;
+    pointer-events: none;
+}

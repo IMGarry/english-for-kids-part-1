@@ -1,0 +1,16 @@
+// Base
+@import "base/normalize";
+@import "base/base";
+@import "base/constants";
+@import "base/placeholders";
+
+// Components
+@import "components/game";
+@import "components/header";
+@import "components/navigation";
+@import "components/hamburger";
+@import "components/game-switcher";
+@import "components/playground";
+@import "components/cards";
+@import "components/statistic";
+@import "components/footer";
